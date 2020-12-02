@@ -158,7 +158,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Anirudh Tulasi - [@twitter_handle](https://twitter.com/AnirudhTulasi)
+Anirudh Tulasi - [@AnirudhTulasi](https://twitter.com/AnirudhTulasi)
 
 Email : [anirudhtulasi.x@gmail.com](mailto:anirudhtulasi.x@gmail.com)
 
