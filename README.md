@@ -19,7 +19,7 @@
   <h3 align="center">TwiP</h3>
 
   <p align="center">
-    Personality plays a vital role in todays world. Our project will automate the screening process before hiring a professional or can be used in psychiatry to check effectivity of patient therapy as this project identifies the user personality by only taking in the Twitter Username. This uses the Twitter REST API to mine tweets for personality identification. We will use n-grams and word vectors for the hashtags, emoticons and phrases using NLP techniques. We will train the machine to classify the personality types by using a Naive- Bayes Text Classifier and to accurately predict the user’s Myers-Briggs personality type using 10- fold cross validation. We will generate a naive bayes classifier models for all 4 different classes. It will generate few scores which will give the training data size and the features used while training the model.  <br />
+    Personality plays a vital role in todays world.This uses the Twitter REST API to mine tweets for personality identification. We will use n-grams and word vectors for the hashtags, emoticons and phrases using NLP techniques. We will train the machine to classify the personality types by using a Naive- Bayes Text Classifier and to accurately predict the user’s Myers-Briggs personality type using 10- fold cross validation. We will generate a naive bayes classifier models for all 4 different classes. It will generate few scores which will give the training data size and the features used while training the model.  <br />
 <a href="https://github.com/anirudhtulasi/rTwiP/blob/main/Images/MiniProject.docx"><strong>Explore the docs »</strong></a>
  <br />
     <br />
