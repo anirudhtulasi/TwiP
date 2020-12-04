@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>AnirudhTulasi</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        font-family: Helvetica Neue;
+    }
+
+    .btn-dark {
+        background-color: black;
+    }
+
+    .four_letter {
+        font-size: 150px;
+        color: beige;
+        font-family: Helvetica Neue;
+        font-weight: bold;
+    }
+
+    .personality {
+
+        color: beige;
+        font-family: Helvetica Neue;
+        font-weight: bold;
+    }
+
+
+    .leftover {
+
+        color: beige;
+        font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue';
+        font-weight: lighter;
+
+    }
+</style>
+
+<body>
+    <div class="container"
+        style="width: 70%;display: block;border: 2px solid beige; margin: 100px auto ;background-color: black;" color:
+        beige;>
+
+        <form class="form-inline" method="POST">
+
+            <div class="container justify-content-between"
+                style="display: flex; justify-content: space-between; flex-direction: row;">
+                <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend">
+                        <img src="https://afi6a41f39b2qbbrk28e5a2u-wpengine.netdna-ssl.com/wp-content/uploads/twitter-logo-white-png.png"
+                            alt="Twitter" height="80px">
+
+                    </div>
+                    <div style="margin: auto; color: beige;">
+                        <input type="text" class="form-control btn-dark" id="inlineFormInputGroupUsername2"
+                            value="{{ request.form.get('userid','') }}" name="userid" placeholder="Username">
+                        <button type="submit" class=" btn-dark btn-sm">Check</button>
+                    </div>
+                </div>
+
+                <div style="margin: auto 0px;">
+                    <div class="input-group-prepend">
+
+                        <span style="color: beige;">TwiP</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </form>
+
+
+        <div class="container">
+            <div
+                style="display: flex; align-items: center; justify-content: space-around; flex-direction: column; color: beige;">
+                {% if display %}
+                <span class="four_letter">{{mbti}}</span>
+                <span class="personality"> {{ personality.type }}</span>
+                <p><br></p>
+                <div class="container leftover" style="width: 80%; text-align: justify;text-justify: inter-word;">
+                    <span>{{ personality.statement }}</span>
+                </div>    <p><br></p>    <p><br></p>
+                {% else %}
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                {% endif %}
+
+                <center><span class="personality"> Guide <br> Malar Selvi S <span></center><br>
+                <br><br><center><span class="personality"> Project Members <span></center>
+                <center><span class="leftover"> Anirudh Tulasi <span></center>
+                  <center><span class="leftover"> Abhishek Anand <span></center>
+                    <center><span class="leftover"> Vamsy Gonnabatula <span></center>
+                      <center><span class="leftover"> Sai Sreemanth <span></center>
+                <hr>
+                <a class="leftover" href="https://github.com/anirudhtulasi" ><span>Anirudh Tulasi</span></a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
